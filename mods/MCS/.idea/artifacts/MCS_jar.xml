@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MCS:jar">
+    <output-path>$PROJECT_DIR$/jars</output-path>
+    <root id="archive" name="MCS.jar">
+      <element id="module-output" name="MCS" />
+      <element id="library" level="project" name="starfarer.api" />
+    </root>
+  </artifact>
+</component>

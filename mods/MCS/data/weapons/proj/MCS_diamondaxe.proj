@@ -1,0 +1,25 @@
+{
+	"id":"MCS_diamondaxe",
+	"specClass":"missile",
+	"missileType":"BOMB",
+	"sprite":"graphics/missiles/MCS_DAShot.png",
+	"onFireEffect":"data.scripts.weapons.VindicatorAxePlugin2",
+	"size":[60,70],	
+	"center":[30,35],
+	"collisionRadius":80,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,255,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":10, # purely visual
+	"armingTime":0.1,	
+	"flameoutTime":0.5,
+	"noEngineGlowTime":0.1,
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":75,
+					 "coreRadius":25, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS},				  
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":20,
+				  "dec":20}
+}

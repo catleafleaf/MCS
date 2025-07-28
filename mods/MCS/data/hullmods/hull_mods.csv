@@ -1,0 +1,13 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+铁傀儡,IronGolemMOD,0,,,,MCS,,,TRUE,,0,0,0,0,data.hullmods.IronGolemMOD,"铁傀儡很擅长近战,但只会近战,最高航速提升 %s,武器射程不会超过 %s 的情况下,武器伤害加成 %s ",很强的近战,
+方块,DamageImmunityHullmod,0,,,,MCS,,,TRUE,,0,0,0,0,data.hullmods.DamageImmunityHullmod,"""将受到的所有伤害量化为%s的倍数。
+小于%s的伤害会提升到16点。
+记住，’一组‘的力量会保护你。""","""受到的伤害仅为16的倍数""",
+末影,EnderDefence,0,,,,MCS,,,TRUE,,0,0,0,0,data.hullmods.EnderDefence,"""当船体在累计受到超过%s的伤害时，
+立即传送%s距离来躲避攻击。
+传送方向会远离最近的敌舰。
+来去自如。""",,
+群体行动,Agglomeration,0,,,,MCS,,,TRUE,,0,0,0,0,data.hullmods.Agglomeration,一群他们确实不好惹，不是么？每有一艘装备相同船插的同型船只拥有%s机动性加成+%s武器伤害加成,,
+幻翼,PhantomClone,0,,,,MCS,,,TRUE,,0,0,0,0,data.hullmods.PhantomClone,太久不睡觉的话，他们只会越来越多。每下降%s秒峰值，会复制自身在%s范围内。,,
+沼骸,MCSTacticalBowHullMod,0,,,,MCS,,,,,5,10,15,20,data.hullmods.MCSTacticalBowHullMod,骷髅变种：沼骸，其弓箭射击造成中毒,,
+史莱姆,MCSSlimeSplitHullMod,0,,,,MCS,,,TRUE,,0,0,0,0,data.hullmods.MCSSlimeSplitHullMod,史莱姆会在死亡后分裂成最多四个次一级的小史莱姆。最大的史莱姆最多分裂两次。,,

@@ -1,0 +1,39 @@
+{
+  "variantId": "MCS_Evoker_variant",
+  "hullId": "MCS_Evoker",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 29,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "missleracks",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "dragon",
+        "WS0003": "dragon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "MCS_Fang_wing",
+    "MCS_Fang_wing",
+    "MCS_Vex_wing",
+    "MCS_Vex_wing"
+  ]
+}

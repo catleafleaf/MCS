@@ -1,0 +1,206 @@
+{
+  "hullName": "New Hull",
+  "hullId": "MCS_Slime",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/MCS_Slime.png",
+  "style": "LOW_TECH",
+  "height": 172,
+  "width": 172,
+  "center": [86, 86],
+  "collisionRadius": 144.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 137.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "DamageImmunityHullmod",
+    "blast_doors",
+    "autorepair",
+    "fluxbreakers",
+    "MCSSlimeSplitHullMod"
+  ],
+  "builtInWeapons": {
+    "WS0001": "MCS_Slime",
+    "WS0002": "MCS_Slime",
+    "WS0003": "MCS_Slime",
+    "WS0004": "MCS_Slime",
+    "WS0005": "MCS_Slime",
+    "WS0006": "MCS_Slime",
+    "WS0007": "MCS_Slime",
+    "WS0008": "MCS_Slime",
+    "WS0011": "MCS_Slime",
+    "WS0012": "MCS_Slime",
+    "WS0017": "MCS_Booster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 69,
+      "angle": 0,
+      "locations": [65, 65]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 69,
+      "angle": -0,
+      "locations": [65, -65]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [52.5, 43]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": -0,
+      "locations": [52.5, -43]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 152,
+      "angle": 0,
+      "locations": [59, 22]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 152,
+      "angle": -0,
+      "locations": [59, -22]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 87,
+      "angle": 0,
+      "locations": [51, 8.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 87,
+      "angle": -0,
+      "locations": [51, -8.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 149,
+      "angle": 0,
+      "locations": [26, 27]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 149,
+      "angle": 0,
+      "locations": [26, -27]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 93,
+      "angle": 50,
+      "locations": [22, 66]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 93,
+      "angle": -50,
+      "locations": [22, -66]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 151,
+      "angle": -81,
+      "locations": [-8, -72]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 151,
+      "angle": 81,
+      "locations": [-8, 72]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 151,
+      "angle": 81,
+      "locations": [-48.5, 67.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 151,
+      "angle": -81,
+      "locations": [-48.5, -67.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 149,
+      "angle": 0,
+      "locations": [-25.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-86, -0],
+      "length": 70,
+      "width": 172,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "Slime"
+    }
+  ],
+  "bounds": [
+    -86, -86,
+    86, -86.5,
+    86, 86.5,
+    -86, 86
+  ]
+}

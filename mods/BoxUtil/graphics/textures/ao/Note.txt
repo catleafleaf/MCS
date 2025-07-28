@@ -1,0 +1,2 @@
+Only red channel will be used. => float finalAO = texture(ao, uv).x
+Ignore alpha channel.

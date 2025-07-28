@@ -1,0 +1,19 @@
+{
+	"quality":0.5,
+	"displayName":"重型战斗机",
+	"hullId":"MCS_Vex",
+	"variantId":"MCS_Vex_Fighter",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"hullMods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS0001":"MCS_IS",
+		 		   },
+		},
+			],
+}

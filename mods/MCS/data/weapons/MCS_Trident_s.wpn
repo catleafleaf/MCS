@@ -1,0 +1,30 @@
+{
+  "id": "MCS_Trident_s",
+  "specClass": "projectile",
+  "projectileSpecId": "MCS_TridentShot",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "everyFrameEffect": "data.scripts.weapons.Trident",
+  "displayArcRadius": 1000,
+  "turretSprite": "graphics/weapons/MCS_Trident.png",
+  "hardpointSprite": "graphics/weapons/MCS_Trident.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretOffsets": [
+    9,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    15,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "NONE"
+}

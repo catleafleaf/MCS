@@ -1,0 +1,85 @@
+{
+  "hullName": "Creeper",
+  "hullId": "MCS_Creeper",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/MCS_Creeper.png",
+  "style": "LOW_TECH",
+  "height": 512,
+  "width": 512,
+  "center": [256, 256],
+  "collisionRadius": 201,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 183.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "unstable_injector",
+    "ill_advised",
+    "DamageImmunityHullmod"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 282,
+      "angle": 0.5,
+      "locations": [-61.5, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-113.5, 7.5],
+      "length": 70,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 40,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-113.5, -10],
+      "length": 70,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 40,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    161, 14,
+    160, 32,
+    131, 63.5,
+    110, 63,
+    108.5, 53.5,
+    -35.5, 52,
+    -51, 31,
+    -54, 56.5,
+    -77, 63.5,
+    -89.5, 56.5,
+    -94, 40,
+    -115, 35.5,
+    -142, 27.5,
+    -136, 16.5,
+    -115, 12,
+    -115, -14,
+    -135, -17.5,
+    -143.5, -26,
+    -122.5, -33.5,
+    -117.5, -39,
+    -96, -41.5,
+    -92, -53.5,
+    -82, -65,
+    -71.5, -65.5,
+    -56, -53.5,
+    -29.5, -51.5,
+    -16.5, -45,
+    110, -47.5,
+    114.5, -54.5,
+    129.5, -54.5,
+    150.5, -32,
+    151, -12,
+    141, -1,
+    132.5, 6,
+    139, 8
+  ]
+}

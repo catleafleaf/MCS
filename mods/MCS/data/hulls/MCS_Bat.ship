@@ -1,0 +1,56 @@
+{
+  "hullName": "Bat",
+  "hullId": "MCS_Bat",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighter/MCS_Bat.png",
+  "style": "MIDLINE",
+  "height": 23,
+  "width": 33,
+  "center": [16.5, 11.5],
+  "collisionRadius": 23.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 21.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "MCS_Dark"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, -0.5],
+      "length": 20,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    9.5, 5.5,
+    11.5, 5.5,
+    11.5, -5.5,
+    9.5, -5.5,
+    9.5, -7.5,
+    5, -8,
+    5, -12,
+    0, -16.5,
+    -9, -16.5,
+    -12.5, -4,
+    -12, 4,
+    -8, 17,
+    -0.5, 17,
+    4.5, 12,
+    4.5, 8,
+    9.5, 8
+  ]
+}

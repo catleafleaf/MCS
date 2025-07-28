@@ -1,0 +1,49 @@
+{
+  "id": "MCS_IronFist",
+  "specClass": "beam",
+  "type": "DECORATIVE",
+  "size": "LARGE",
+  "everyFrameEffect":"data.scripts.everyframe.IronFistFrame",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/MCS_IronFist/MCS_IronFist00.png",
+  "hardpointSprite": "graphics/weapons/MCS_IronFist/MCS_IronFist00.png",
+  "numFrames":2,
+  "frameRate":2.5,
+  #"alwaysAnimate":"true",
+  "renderBelowAllWeapons": true,
+  "hitGlowRadius": 0,
+  "renderHints": [
+    "RENDER_ADDITIVE"
+  ],
+  "turretOffsets": [
+    15,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 1,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 1,
+  "pixelsPerTexel": 1
+}

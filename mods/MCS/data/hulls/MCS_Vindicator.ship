@@ -1,0 +1,205 @@
+{
+  "hullName": "Vindicator",
+  "hullId": "MCS_Vindicator",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/MCS_Vindicator.png",
+  "style": "LOW_TECH",
+  "height": 305,
+  "width": 234,
+  "center": [117, 152.5],
+  "collisionRadius": 173,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 171,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fluxbreakers",
+    "DamageImmunityHullmod"
+  ],
+  "builtInWeapons": {
+    "WS0001": "MCS_VindicatorAxe"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 171,
+      "angle": 26,
+      "locations": [115.5, 71]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 125,
+      "angle": 0,
+      "locations": [8, 1]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HIDDEN",
+      "arc": 125,
+      "angle": 45.5,
+      "locations": [12, 25]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HIDDEN",
+      "arc": 126,
+      "angle": -44,
+      "locations": [12, -23]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 146,
+      "angle": 90,
+      "locations": [-56.5, 22.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 145,
+      "angle": -90,
+      "locations": [-56.5, -22]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 145,
+      "angle": -90,
+      "locations": [-31, -22]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 144,
+      "angle": 90,
+      "locations": [-31, 23]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 125,
+      "angle": 46,
+      "locations": [-6.5, 23.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 124,
+      "angle": -45,
+      "locations": [-6, -22]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-150.5, 28.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-150.5, 21.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-151, 11],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-151, 5.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-151, -5.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-151, -10.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-151, -21.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-151, -27.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    110, 33.5,
+    35, 36,
+    61, 87,
+    99.5, 69,
+    106, 52,
+    123, 52,
+    136.5, 61.5,
+    149, 80.5,
+    141.5, 95,
+    104.5, 110.5,
+    99, 90,
+    45.5, 119.5,
+    33, 108,
+    -3, 45.5,
+    -78, 38.5,
+    -149.5, 35,
+    -154.5, -34,
+    -79.5, -32.5,
+    -77, -41.5,
+    -67.5, -37,
+    -70, -66.5,
+    29.5, -69,
+    29.5, -39,
+    110.5, -34.5
+  ]
+}

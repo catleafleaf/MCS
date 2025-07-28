@@ -1,0 +1,21 @@
+{
+	"quality":1,
+	"displayName":"鱼雷轰炸机",
+	"hullId":"MCS_Fang",
+	"variantId":"MCS_Fang_Bomber",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"ALTERNATING",
+		 "weapons":{
+		 			"WS0001":"atropos_single",
+		 			"WS0002":"atropos_single",
+					"WS0003":"atropos_single",
+		 		   },
+		},
+	],
+}

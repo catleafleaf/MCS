@@ -1,0 +1,18 @@
+{
+    "id": "shaderLib",
+    "name": "zz GraphicsLib",
+    "author": "DarkRevenant",
+    "version": "1.10.1",
+    "utility": "true",
+    "description": "一本充满黑魔法和巫术的神秘书籍。\n\n图形前置 [GraphicsLib] 提供了一系列游戏图形方面的改进，包括各种各样的视效插件，动态光照引擎，以及屏幕扭曲效果滤镜。通过使用本Mod提供的内置照明，变形和后期处理API，其他Mod也可以实现独特的滤镜效果。",
+    "gameVersion": "0.98a-RC5",
+    "jars":["jars/Graphics.jar"],
+    "modPlugin":"org.dark.shaders.ShaderModPlugin",
+    "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+            "version": "3.0.0"
+        },
+    ],
+}

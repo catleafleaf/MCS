@@ -1,0 +1,39 @@
+{
+	"id":"EnderTeleport",
+	"type":"TELEPORTER",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.EnderTeleportAI",
+	
+
+	"jitterColor":[100,165,255,150],
+	"jitterCopies":5,
+	"jitterRange":25,
+	"jitterRangeRadiusFraction":0,
+	
+	"weaponGlowColor":[100,165,255,0],
+	"weaponTypes":[ENERGY],
+
+	"engineGlowLengthMult":0,
+	"engineGlowWidthMult":0,
+	"engineGlowGlowMult":0,
+	
+	"range":2000,
+	"randomRange":0,
+
+	
+	"vulnerableChargeup":true,
+	"vulnerableChargedown":false,
+	"renderCopyDuringTeleport":true,
+	
+	"fadeActivationSoundOnChargedown":false,
+	
+	"useSound":"system_phase_teleporter",	
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":1000,
+		"averageSpeedIncrease":350,
+	}
+}

@@ -1,0 +1,10 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+MCS_Vex_wing,MCS_Vex_Fighter," fighter,  fighter5, MCS_bp",3,0.2,6,10,V,4000,500,,4,FIGHTER,无人战斗机,12,6000,,,,,,,,,,,,,12418.001
+MCS_Fang_wing,MCS_Fang_Bomber,"bomber5, bomber, MCS_bp",3,0.25,8,26,V,4000,2000,600,2,BOMBER,轰炸机,25,15000,,,,,,,,,,,,,12418.002
+MCS_Bat_wing,MCS_Bat_variant,"fighter4, fighter, MCS_bp",2,0.3,6,10,V,4000,700,,4,FIGHTER,重型战斗机,10,6000,,,,,,,,,,,,,12418.003
+MCS_Chicken_wing,MCS_Chicken_variant,"interceptor3, interceptor, high, MCS_bp, auto_fighter, merc, ind",1,0.1,5,12,CLAW,4000,300,700,6,INTERCEPTOR,无人截击机,5,6000,,,,,,,,,,,,,12418.004
+MCS_Chicken_wing_wing,MCS_Chicken_variant,"interceptor3, interceptor, high, MCS_bp, auto_fighter, merc, ind",1,0.05,5,3,CLAW,4000,300,700,1,INTERCEPTOR,无人截击机,5,6000,,,,,,,,,,,,,12418.005
+MCS_SlimeFighter_wing,MCS_SlimeFighter_variant,"fighter4, fighter, MCS_bp",2,0.3,1,1,V,4000,700,,1,FIGHTER,战斗机,1,6000,,,,,,,,,,,,,12418.006
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,201 @@
+{
+  "hullName": "Evoker",
+  "hullId": "MCS_Evoker",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/MCS_Evoker.png",
+  "style": "HIGH_TECH",
+  "height": 267,
+  "width": 219,
+  "center": [110.5, 165],
+  "collisionRadius": 181.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 172.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "DamageImmunityHullmod"
+  ],
+  "builtInWings": [
+    "MCS_Fang_wing",
+    "MCS_Fang_wing",
+    "MCS_Vex_wing",
+    "MCS_Vex_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 163,
+      "angle": -0.5,
+      "locations": [56, 1]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HIDDEN",
+      "arc": 163,
+      "angle": 52,
+      "locations": [-1, 18.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HIDDEN",
+      "arc": 163,
+      "angle": -56.5,
+      "locations": [-0.5, -18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 26,
+      "angle": -0.5,
+      "locations": [25.5, 35.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 26,
+      "angle": -0.5,
+      "locations": [25.5, -34.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        61, 92,
+        55.5, 95,
+        65.5, 96.5,
+        60.5, 101.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        66, -80.5,
+        60, -84.5,
+        65.5, -92,
+        70, -87
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        53.5, -91.5,
+        60, -97,
+        54, -101,
+        47, -96.5
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        70, 92.5,
+        70.5, 85,
+        68, 88,
+        74, 88.5
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 26,
+      "angle": 43,
+      "locations": [61.5, 91.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 26,
+      "angle": -42.5,
+      "locations": [57, -90]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-163.5, 25],
+      "length": 50,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-163.5, 10],
+      "length": 50,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-164.5, -6],
+      "length": 50,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-165.5, -22],
+      "length": 50,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-165.5, -22],
+      "length": 50,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    102.5, 35.5,
+    102.5, 35.5,
+    30.5, 35.5,
+    82.5, 89,
+    59, 115.5,
+    -13.5, 41.5,
+    -162, 40.5,
+    -166.5, -41,
+    -5, -37.5,
+    55.5, -112,
+    80.5, -85,
+    27.5, -37.5,
+    103, -32.5
+  ]
+}

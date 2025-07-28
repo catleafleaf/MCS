@@ -1,0 +1,58 @@
+{
+  "id": "MCS_BOW",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect":"data.scripts.weapons.BOWBeam",
+  "everyFrameEffect": "data.scripts.weapons.BOW",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/MCS_BOW.png",
+  "turretGlowSprite": "graphics/weapons/MCS_BOW_glow.png",
+  "hardpointSprite": "graphics/weapons/MCS_BOW.png",
+  "hardpointGlowSprite": "graphics/weapons/MCS_BOW_glow.png",
+  "glowColor": [
+    250,
+    250,
+    255,
+    235
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    9,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    250,
+    250,
+    255,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 30,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 292,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ]
+}

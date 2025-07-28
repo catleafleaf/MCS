@@ -1,0 +1,4 @@
+For model, the .mtl file is not necessary; triangles and quads both ok; recommended to use a high-precision model.
+For Cinema 4D, should exchange the y-axis and z-axis.
+For performance, obj file shouldn't be bigger than 8MB.
+!!! DO NOT HAVE ANY N-GONS !!!

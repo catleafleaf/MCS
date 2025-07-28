@@ -1,0 +1,13 @@
+{
+	"id":"Creepersystem",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.CreeperSystemAI",
+	"statsScript":"data.shipsystems.scripts.Creepersystem",
+	
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+	
+
+}

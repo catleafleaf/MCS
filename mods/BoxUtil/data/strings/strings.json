@@ -1,0 +1,139 @@
+{
+	"ui":{
+		"BUtil_ConfigPanel_MainFont":"graphics/fonts/orbitron24aa.fnt",
+
+
+
+		"BUtil_ConfigPanel_Title_zh_cn":"BoxUtil 配置界面",
+		"BUtil_ConfigPanel_Title_en_us":"BoxUtil Config Panel",
+
+		"BUtil_ConfigPanel_Global_zh_cn":"全局设置",
+		"BUtil_ConfigPanel_Global_en_us":"Global Settings",
+
+		"BUtil_ConfigPanel_Common_zh_cn":"通常设置",
+		"BUtil_ConfigPanel_Common_en_us":"Common Settings",
+
+		"BUtil_ConfigPanel_Misc_zh_cn":"其它设置",
+		"BUtil_ConfigPanel_Misc_en_us":"Misc Settings",
+
+
+
+		"BUtil_ConfigPanel_Cancel_zh_cn":"取消",
+		"BUtil_ConfigPanel_Cancel_en_us":"Cancel",
+
+		"BUtil_ConfigPanel_Save_zh_cn":"保存",
+		"BUtil_ConfigPanel_Save_en_us":"Save",
+
+		"BUtil_ConfigPanel_Default_zh_cn":"默认",
+		"BUtil_ConfigPanel_Default_en_us":"Default",
+
+		"BUtil_ConfigPanel_Undo_zh_cn":"撤销",
+		"BUtil_ConfigPanel_Undo_en_us":"Undo",
+
+
+
+		"BUtil_ConfigPanel_CancelTips_zh_cn":"尚有未保存的修改，确认要退出界面吗？",
+		"BUtil_ConfigPanel_CancelTips_en_us":"Some settings have not been saved, are you sure you want to exit?",
+
+		"BUtil_ConfigPanel_CancelTipsY_zh_cn":"退出",
+		"BUtil_ConfigPanel_CancelTipsY_en_us":"Exit",
+
+		"BUtil_ConfigPanel_CancelTipsN_zh_cn":"返回",
+		"BUtil_ConfigPanel_CancelTipsN_en_us":"Back",
+
+
+
+		"BUtil_ConfigPanel_ValueValid_zh_cn":"开启",
+		"BUtil_ConfigPanel_ValueValid_en_us":"Enabled",
+
+		"BUtil_ConfigPanel_ValueInvalid_zh_cn":"关闭",
+		"BUtil_ConfigPanel_ValueInvalid_en_us":"Disabled",
+
+		"BUtil_ConfigPanel_ValueLimit_zh_cn":"最大",
+		"BUtil_ConfigPanel_ValueLimit_en_us":"Max",
+
+		"BUtil_ConfigPanel_RebootTips_Value_zh_cn":"\n\n当前生效值为：%s \n\n%s",
+		"BUtil_ConfigPanel_RebootTips_Value_en_us":"\n\nCurrent valid value：%s \n\n%s",
+
+		"BUtil_ConfigPanel_RebootTips_zh_cn":"重新启动游戏后生效。",
+		"BUtil_ConfigPanel_RebootTips_en_us":"Effective after game reboot.",
+
+
+
+		"BUtil_ConfigPanel_Global_00_zh_cn":"启用着色器",
+		"BUtil_ConfigPanel_Global_00_en_us":"Enable shader",
+		"BUtil_ConfigPanel_Global_00P_zh_cn":"控制是否启用BoxUtil的绝大多数功能。\n\n对于部分功能，即便关闭该选项仍然生效。",
+		"BUtil_ConfigPanel_Global_00P_en_us":"To enable whether most of the BoxUtil function。\n\nFor some function still valid whether disabled.",
+
+		"BUtil_ConfigPanel_Global_01_zh_cn":"并行计算类型",
+		"BUtil_ConfigPanel_Global_01_en_us":"Parallel compute type",
+		"BUtil_ConfigPanel_Global_01P_zh_cn":"控制内部的大规模计算任务将使用哪种方式处理数据。\n\nOpenGL：使用计算着色器，需支持对应的4.3版本。考虑到需与渲染管线交互，通常性能最佳。\nJVM：仅依靠CPU端代码进行单线程计算。含有大量矩阵及三角函数运算，效率上并不乐观。",
+		"BUtil_ConfigPanel_Global_01P_en_us":"To control compute method of builtin parallel tasks.\n\nOpenGL: Use Compute Shader, requires OpenGL 4.3 supported. Generally better for performance, considering interactive with rendering pipeline.\nJVM: Only call single thread to computing on CPU. With much matrix and triangle function calculation, its bad choice.",
+		"BUtil_ConfigPanel_Global_01V0_NL":"JVM",
+		"BUtil_ConfigPanel_Global_01V1_NL":"OpenGL",
+
+
+
+		"BUtil_ConfigPanel_Common_00_zh_cn":"着色器状态",
+		"BUtil_ConfigPanel_Common_00_en_us":"Shader status",
+		"BUtil_ConfigPanel_Common_00P_zh_cn":"控制是否关闭针对3D物体的光照计算。\n\n通常模式：按照每个实体的配置正常计算光照。\n颜色模式：将不会计算光照即便实体拥有相应配置，仅包含基本漫反射颜色与自发光，可稍微降低性能消耗。",
+		"BUtil_ConfigPanel_Common_00P_en_us":"To enable whether illumination for 3D objects.\n\nCommon mode: Normal execution of each entity config.\nColor mode: disabled illumination even if have entity config, only rendering diffuse color and emissive color, reduce the compute cost a bit.",
+		"BUtil_ConfigPanel_Common_00V0_zh_cn":"通常模式",
+		"BUtil_ConfigPanel_Common_00V0_en_us":"Common mode",
+		"BUtil_ConfigPanel_Common_00V1_zh_cn":"颜色模式",
+		"BUtil_ConfigPanel_Common_00V1_en_us":"Color mode",
+
+		"BUtil_ConfigPanel_Common_01_zh_cn":"启用泛光",
+		"BUtil_ConfigPanel_Common_01_en_us":"Enable bloom",
+		"BUtil_ConfigPanel_Common_01P_zh_cn":"控制是否开启材质的自发光部分泛光效果。\n\n基于Dual Blur，对性能影响适中。\n\n在颜色模式下同样有效。",
+		"BUtil_ConfigPanel_Common_01P_en_us":"To enable whether bloom from emissive texture.\n\nDual Blur based bloom, moderate performance impact.\n\nAlso remains valid in color mode.",
+
+		"BUtil_ConfigPanel_Common_02_zh_cn":"抗锯齿类型",
+		"BUtil_ConfigPanel_Common_02_en_us":"Anti-Aliasing type",
+		"BUtil_ConfigPanel_Common_02P_zh_cn":"控制渲染在最后阶段启用的抗锯齿类型。\n\nFXAA Console：提供一定的抗锯齿同时最大化性能，适合性能不足的设备使用。\nFXAA Quality：消耗一定性能提供较高画面质量，可有效对图形进行处理。\n\n在颜色模式下同样有效。",
+		"BUtil_ConfigPanel_Common_02P_en_us":"To control AA method on final rendering layer.\n\nFXAA Console：Provides balance AA and maximum performance, suitable for low performance PC.\nFXAA Quality：Provides better picture quality and moderate performance cost, more effective for image processing.\n\nAlso remains valid in color mode.",
+		"BUtil_ConfigPanel_Common_02V30_zh_cn":"关闭",
+		"BUtil_ConfigPanel_Common_02V30_en_us":"Disabled",
+		"BUtil_ConfigPanel_Common_02V31_NL":"FXAA Console",
+		"BUtil_ConfigPanel_Common_02V32_NL":"FXAA Quality",
+
+		"BUtil_ConfigPanel_Common_03_zh_cn":"深度抗锯齿",
+		"BUtil_ConfigPanel_Common_03_en_us":"Depth based AA",
+		"BUtil_ConfigPanel_Common_03P_zh_cn":"控制使用FXAA抗锯齿工作时是否仅使用深度信息作为采样源。\n\n使用深度信息时将仅为3D物体边缘进行抗锯齿。\n若关闭，即使用屏幕内容作为采样源，可作为原版抗锯齿的替代，但相对的还会轻微地柔和化整个画面。",
+		"BUtil_ConfigPanel_Common_03P_en_us":"To control whether FXAA sampling source from depth value only.\n\nOnly apply AA to edge of 3D objects when use depth value.\nSampling source will be the screen if turned off, which serves as an alternative to vanilla AA, but will slightly soften the screen by comparison.",
+
+		"BUtil_ConfigPanel_Common_04_zh_cn":"实例渲染上限",
+		"BUtil_ConfigPanel_Common_04_en_us":"Instanced rendering limit",
+		"BUtil_ConfigPanel_Common_04P_zh_cn":"控制正常游戏流程实例化渲染时最大的数量。\n\n常用于控制单种粒子的生成上限，会阻止超出该数值部分的粒子生成。\n同时也限制着曲线段实体的节点数量 (该值的一半)，以及尾迹实体的节点数量 (等于该值)。\n而在实际执行时，还受限于硬件所支持的数量，该值只能通过更换硬件调整。",
+		"BUtil_ConfigPanel_Common_04P_en_us":"To control maximum instanced rendering number in normally game.\n\nGenerally to control the spawn of a single type particle, and prevents exceeding this number.\nAlso is a nodes limit for SegmentEntity (half this value) and TrailEntity (this value).\nIts also limited by supported of device when rendering, only can changing device to adjust the value.",
+
+		"BUtil_ConfigPanel_Common_05_zh_cn":"曲线节点上限",
+		"BUtil_ConfigPanel_Common_05_en_us":"Curve node limit",
+		"BUtil_ConfigPanel_Common_05P_zh_cn":"控制每个曲线实体最多能拥有多少个节点。\n\n对于拥有大量节点且插值数高的曲线实体，会对性能产生较大影响。",
+		"BUtil_ConfigPanel_Common_05P_en_us":"To control maximum node number of each curve entity\n\nFor curve entity that have large number of nodes and high interpolation",
+
+		"BUtil_ConfigPanel_Common_06_zh_cn":"曲线插值上限",
+		"BUtil_ConfigPanel_Common_06_en_us":"Curve interpolation limit",
+		"BUtil_ConfigPanel_Common_06P_zh_cn":"控制曲线实体渲染时允许的最大插值细分次数。\n\n较大的插值数会更加影响渲染曲线时的性能消耗。",
+		"BUtil_ConfigPanel_Common_06P_en_us":"To control maximum interpolation number of subdivision curve entity.\n\nLarger interpolation will further impact performance when rendering curve.",
+
+		"BUtil_ConfigPanel_Common_07_zh_cn":"启用失真效果",
+		"BUtil_ConfigPanel_Common_07_en_us":"Enable distortion",
+		"BUtil_ConfigPanel_Common_07P_zh_cn":"控制是否启用失真波纹的渲染。\n\n一种即时计算的局部后处理失真波纹效果，性能影响较轻。",
+		"BUtil_ConfigPanel_Common_07P_en_us":"To enable whether rendering distortion.\n\nA realtime local post-processing distortion, with little performance impact",
+
+
+
+		"BUtil_ConfigPanel_Misc_00_zh_cn":"配置界面语言",
+		"BUtil_ConfigPanel_Misc_00_en_us":"Config panel language",
+		"BUtil_ConfigPanel_Misc_00P_zh_cn":"更改BoxUtil配置界面的显示语言。",
+		"BUtil_ConfigPanel_Misc_00P_en_us":"To change language of the BoxUtil config panel.",
+		"BUtil_ConfigPanel_Misc_00V_zh_cn":"简体中文",
+		"BUtil_ConfigPanel_Misc_00V_en_us":"English",
+
+		"BUtil_ConfigPanel_Misc_01_zh_cn":"启用调试输出",
+		"BUtil_ConfigPanel_Misc_01_en_us":"Enable debug print",
+		"BUtil_ConfigPanel_Misc_01P_zh_cn":"控制是否在本地控制台打印OpenGL相关运行消息。\n\n需要硬件支持对应的4.3版本。\n\n对于NVIDIA图形卡用户，建议使用NVIDIA Nsight Graphics获得最佳的Debug体验。",
+		"BUtil_ConfigPanel_Misc_01P_en_us":"To control whether print OpenGL log in game CMD.\n\nRequires OpenGL 4.3 supported.\n\nRecommended to use NVIDIA Nsight Graphics for best debug experience for NVIDIA users."
+	}
+}

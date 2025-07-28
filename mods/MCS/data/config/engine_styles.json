@@ -1,0 +1,30 @@
+{
+         "Slime":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":0,
+		"contrailWidthMult":0.5,
+		"contrailWidthAddedFractionAtEnd":-1f,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":1f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[181,191,50,75],
+		"type":"SMOKE", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"",
+		"glowOutline":"",
+		"omegaMode":true,
+		"glowSizeMult":1,
+		"glowAlternateColor":[181,191,90,255],
+		"engineColor":[181,191,90,255],
+		
+		#"contrailParticleSizeMult":4,
+		#"contrailParticleDuration":1,
+		#"contrailParticleFinalSizeMult":2.5,
+		#"contrailMaxSpeedMult":0.5f,
+		#"contrailAngularVelocityMult":0f,
+		#"contrailColor":[100,165,255,25],
+		#"contrailCampaignColor":[100,165,255,75],
+		#"type":"GLOW" # GLOW or SMOKE
+	},	
+}
+

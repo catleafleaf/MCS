@@ -1,0 +1,40 @@
+{
+  "variantId": "MCS_Skeleton_bogged",
+  "hullId": "MCS_Skeleton",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 16,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "fluxcoil",
+    "fluxdistributor",
+    "stabilizedshieldemitter",
+    "hardenedshieldemitter",
+    "advancedshieldemitter",
+    "comp_storage",
+    "degraded_life_support",
+    "glitched_sensors",
+    "increased_maintenance",
+    "faulty_auto",
+    "MCSTacticalBowHullMod"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "MCS_BOW"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

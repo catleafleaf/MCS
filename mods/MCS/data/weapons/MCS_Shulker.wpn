@@ -1,0 +1,49 @@
+{
+  "id": "MCS_Shulker",
+  "specClass": "projectile",
+  "projectileSpecId": "MCS_Shulkershot",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "everyFrameEffect": "data.scripts.weapons.ShulkerEveryFrame",
+  "turretSprite": "graphics/weapons/MCS_Shulker/MCS_Shulker00.png",
+  "hardpointSprite": "graphics/weapons/MCS_Shulker/MCS_Shulker00.png",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    9.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "numFrames": 8,
+  "frameRate": 8,
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackSpread": 10,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ]
+  },
+  "fireSoundTwo": "pilum_lrm_fire"
+}

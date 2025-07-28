@@ -1,0 +1,30 @@
+{
+  "variantId": "MCS_SlimeTiny_variant",
+  "hullId": "MCS_SlimeTiny",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "MCS_Slime",
+        "WS0002": "MCS_Slime",
+        "WS0003": "MCS_Slime",
+        "WS0004": "MCS_Slime",
+        "WS0005": "MCS_Slime",
+        "WS0006": "MCS_Slime"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

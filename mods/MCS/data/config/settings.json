@@ -1,0 +1,48 @@
+{
+	"plugins":{
+
+	},
+
+	"designTypeColors":{
+
+	},
+
+	"graphics":{
+		"misc":{
+
+		},
+
+		"illustrations": {
+
+		},
+
+		"fx":{
+
+		},
+		"characters":
+		{
+			"MCS_Evoker":"graphics/portraits/MCS_Evoker.png",
+			"MCS_Zombie":"graphics/portraits/MCS_Zombie.png",
+			"MCS_Chickenman":"graphics/portraits/MCS_Chickenman.png",
+			"MCS_Wolf":"graphics/portraits/MCS_Wolf.png",
+			"MCS_Slime":"graphics/portraits/MCS_Slime.png",
+
+		},
+
+		"intel": {
+
+		},
+
+		"blueprint_packages":{
+
+		},
+ 		"mcs_alt_sprites":{
+            		"MCS_Skeleton_position":"graphics/ships/MCS_Skeleton/MCS_Skeleton_position.png"
+        }
+	},
+
+	"bonusXP":{
+
+	},
+
+}

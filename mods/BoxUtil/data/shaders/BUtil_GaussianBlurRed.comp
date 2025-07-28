@@ -1,0 +1,59 @@
+#version 430
+
+precision OVERWRITE_PRECISION float;
+precision highp int;
+
+layout(local_size_x = RESET_VALUE, local_size_y = 8, local_size_z = 1) in;
+
+subroutine float formatPickerLoad(in ivec2 coord);
+subroutine uniform formatPickerLoad formatPickerLoadState;
+subroutine void formatPickerStore(in ivec2 coord, in float result);
+subroutine uniform formatPickerStore formatPickerStoreState;
+
+layout(binding = 0, r8) uniform readonly image2D texIn;
+layout(binding = 1, r8) uniform writeonly image2D texOut;
+layout(binding = 2, r16) uniform readonly image2D texIn16;
+layout(binding = 3, r16) uniform writeonly image2D texOut16;
+
+uniform ivec3 sizeStep;
+uniform int vertical;
+uniform float perStep; // 1.5219615 / max(step, 1)
+
+float getGaussian(float i) {
+    return 0.3789403 * exp(-1.1904761 * i * i);
+}
+
+subroutine(formatPickerLoad) float bit8Load(in ivec2 coord) {
+    return imageLoad(texIn, coord).x;
+}
+
+subroutine(formatPickerLoad) float bit16Load(in ivec2 coord) {
+    return imageLoad(texIn16, coord).x;
+}
+
+subroutine(formatPickerStore) void bit8Store(in ivec2 coord, in float result) {
+    imageStore(texOut, coord, vec4(result, vec3(0.0)));
+}
+
+subroutine(formatPickerStore) void bit16Store(in ivec2 coord, in float result) {
+    imageStore(texOut16, coord, vec4(result, vec3(0.0)));
+}
+
+void main()
+{
+    ivec2 coord = ivec2(gl_GlobalInvocationID.xy);
+    if (any(greaterThanEqual(coord, sizeStep.xy))) return;
+    ivec2 maxIndex = sizeStep.xy - 1;
+    float result = 0.0;
+    ivec2 offset;
+    float gaussian, fix = 0.0;
+    bool isVertical = bool(vertical);
+    for (int i = -sizeStep.z; i <= sizeStep.z; ++i) {
+        gaussian = getGaussian(float(i) * perStep);
+        fix += gaussian;
+        offset = isVertical ? ivec2(0, i) : ivec2(i, 0);
+        result += formatPickerLoadState(clamp(offset + coord, ivec2(0), maxIndex)) * gaussian;
+    }
+    result /= fix;
+    formatPickerStoreState(coord, result);
+}

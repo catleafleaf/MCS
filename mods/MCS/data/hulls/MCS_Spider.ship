@@ -1,0 +1,192 @@
+{
+  "hullName": "Spider",
+  "hullId": "MCS_Spider",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/MCS_Spider.png",
+  "style": "LOW_TECH",
+  "height": 121,
+  "width": 129,
+  "center": [64.5, 60.5],
+  "collisionRadius": 85.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 81,
+  "viewOffset": 0,
+  "builtInMods": [
+    "DamageImmunityHullmod",
+    "safetyoverrides"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [46, 14.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [46, -14.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 2,
+      "angle": 0,
+      "locations": [54.5, 43.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [54.5, -43.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 122,
+      "angle": -45,
+      "locations": [33, -60.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 123,
+      "angle": 45,
+      "locations": [33, 60.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 137,
+      "angle": 107.5,
+      "locations": [-10.5, 55]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 138,
+      "angle": -106.5,
+      "locations": [-10.5, -55]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 149,
+      "angle": 0,
+      "locations": [38, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-60, 18],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-60, 8],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-60, -1.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-60, -9.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-60, -16.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-31.5, 44],
+      "length": 30,
+      "width": 10,
+      "angle": 130.5,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-31, -44],
+      "length": 30,
+      "width": 10,
+      "angle": -130.5,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    52.5, 18,
+    52, -19.5,
+    26, -19.5,
+    64, -39,
+    59, -53,
+    28, -37.5,
+    39.5, -61.5,
+    30, -64.5,
+    2.5, -26.5,
+    -6, -60.5,
+    -15, -56.5,
+    -9.5, -28.5,
+    -29.5, -48,
+    -35.5, -45.5,
+    -33, -36.5,
+    -17.5, -22.5,
+    -65, -21.5,
+    -63, 23.5,
+    -19.5, 22,
+    -35.5, 38.5,
+    -25.5, 48,
+    -11, 30,
+    -17.5, 60.5,
+    -5.5, 62.5,
+    2, 27.5,
+    29.5, 67,
+    40.5, 62,
+    22.5, 33.5,
+    52.5, 54.5,
+    65.5, 46,
+    30.5, 22
+  ]
+}

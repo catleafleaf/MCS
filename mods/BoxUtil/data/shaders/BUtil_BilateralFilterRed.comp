@@ -1,0 +1,74 @@
+#version 430
+
+precision OVERWRITE_PRECISION float;
+precision highp int;
+
+layout(local_size_x = RESET_VALUE, local_size_y = 8, local_size_z = 1) in;
+
+subroutine float formatPickerLoadSrc(in ivec2 coord);
+subroutine uniform formatPickerLoadSrc formatPickerLoadSrcState;
+subroutine float formatPickerLoad(in ivec2 coord);
+subroutine uniform formatPickerLoad formatPickerLoadState;
+subroutine void formatPickerStore(in ivec2 coord, in float result);
+subroutine uniform formatPickerStore formatPickerStoreState;
+
+layout(binding = 0, r8) uniform readonly image2D texSrc;
+layout(binding = 1, r16) uniform readonly image2D texSrc16;
+layout(binding = 2, r8) uniform readonly image2D texIn;
+layout(binding = 3, r8) uniform writeonly image2D texOut;
+layout(binding = 4, r16) uniform readonly image2D texIn16;
+layout(binding = 5, r16) uniform writeonly image2D texOut16;
+
+uniform ivec3 sizeStep;
+uniform int vertical;
+uniform vec2 gSigmaSRInv;
+
+float getWeight(in float diff, in float i) {
+    return exp(gSigmaSRInv.x * i * i + gSigmaSRInv.y * diff * diff);
+}
+
+subroutine(formatPickerLoadSrc) float bit8LoadSrc(in ivec2 coord) {
+    return imageLoad(texSrc, coord).x;
+}
+
+subroutine(formatPickerLoadSrc) float bit16LoadSrc(in ivec2 coord) {
+    return imageLoad(texSrc16, coord).x;
+}
+
+subroutine(formatPickerLoad) float bit8Load(in ivec2 coord) {
+    return imageLoad(texIn, coord).x;
+}
+
+subroutine(formatPickerLoad) float bit16Load(in ivec2 coord) {
+    return imageLoad(texIn16, coord).x;
+}
+
+subroutine(formatPickerStore) void bit8Store(in ivec2 coord, in float result) {
+    imageStore(texOut, coord, vec4(result, vec3(0.0)));
+}
+
+subroutine(formatPickerStore) void bit16Store(in ivec2 coord, in float result) {
+    imageStore(texOut16, coord, vec4(result, vec3(0.0)));
+}
+
+void main()
+{
+    ivec2 coord = ivec2(gl_GlobalInvocationID.xy);
+    if (any(greaterThanEqual(coord, sizeStep.xy))) return;
+    float center = formatPickerLoadSrcState(coord);
+    bool isVertical = bool(vertical);
+    ivec2 checkSize = ivec2(0, isVertical ? sizeStep.y : sizeStep.x);
+    ivec2 coordCurr;
+    float curr, diff, sum = 0.0, weightCurr, weight = 0.0;
+    for (int i = -sizeStep.z; i <= sizeStep.z; ++i) {
+        coordCurr = coord + (isVertical ? ivec2(0, i) : ivec2(i, 0));
+        checkSize.x = isVertical ? coordCurr.y : coordCurr.x;
+        if (checkSize.x < 0 || checkSize.x >= checkSize.y) continue;
+        curr = formatPickerLoadState(coordCurr);
+        diff = center - curr;
+        weightCurr = getWeight(diff, float(i));
+        sum += curr * weightCurr;
+        weight += weightCurr;
+    }
+    formatPickerStoreState(coord, sum / weight);
+}

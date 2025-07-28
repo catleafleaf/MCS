@@ -1,0 +1,62 @@
+{
+  "variantId": "MCS_Vindicator_hard",
+  "hullId": "MCS_Vindicator",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 25,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "missleracks",
+    "stabilizedshieldemitter",
+    "eccm",
+    "targetingunit",
+    "comp_storage",
+    "degraded_life_support",
+    "glitched_sensors",
+    "increased_maintenance",
+    "faulty_auto"
+
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "MCS_VindicatorAxe"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hellbore"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "dragon",
+        "WS0004": "dragon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "MCS_IS",
+        "WS0010": "MCS_IS"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,60 @@
+{
+  "variantId": "MCS_Spider_hard",
+  "hullId": "MCS_Spider",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "converted_hangar",
+    "comp_storage",
+    "degraded_life_support",
+    "glitched_sensors",
+    "increased_maintenance",
+    "faulty_auto"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavymg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "reaper",
+        "WS0004": "reaper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sabot",
+        "WS0006": "sabot"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "MCS_Bat_wing"
+  ]
+}

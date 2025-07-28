@@ -1,0 +1,56 @@
+{
+  "id": "MCS_SpiderWire",
+  "specClass": "beam",
+  "type": "SYSTEM",
+  "size": "LARGE",
+  "everyframeEffect": "data.scripts.weapons.SpiderRange",
+  "beamEffect": "data.scripts.weapons.SpiderWire",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "",
+  "hardpointSprite": "",
+  "glowColor": [
+    250,
+    255,
+    255,
+    25
+  ],
+  "hitGlowRadius": 100,
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    250,
+    255,
+    255,
+    5
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    200
+  ],
+  "textureType":["graphics/fx/SpiderWire.png","graphics/fx/emp_arcs.png"],
+  "width": 20,
+  "textureScrollSpeed": 292,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ]
+}

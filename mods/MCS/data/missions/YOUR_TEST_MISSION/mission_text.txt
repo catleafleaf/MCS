@@ -1,0 +1,8 @@
+>自己记得改简介和名字，测试战役使用方法就是复制装配的那一行然后把装配改成对应的一点点往后加就完事。
+
+		api.addToFleet(FleetSide.PLAYER, "MCS_Creeper_variant", FleetMemberType.SHIP, false);
+		"MCS_Creeper_variant"	就是你的装配名，把这行复制了一点点往后顺就完事，其他的不要动
+		
+同时，将测试战役加入你的mod前，请将MissionDefinit...里面的第一行
+package data.missions.YOUR_TEST_MISSION;
+这个战役的文件夹YOUR_TEST_MISSION，以及mission_list.csv里面的YOUR_TEST_MISSION改成你自己的战役名 —— 最好是你的模组ID+test，例如SGB_Test

@@ -1,0 +1,4 @@
+command,class,tags,syntax,help
+ShowMultiPassChannel,org.boxutil.units.builtin.console.ShowMultiPassChannel,console,ShowMultiPassChannel [optionalChannelValue],"Show fragment color of multiple-pass rendering on screen, it is all without AA, ignore case. Valid channel value: ""none"", BEAUTY, DATA, EMISSIVE, BLOOM, NORMAL."
+ShowAAStatus,org.boxutil.units.builtin.console.ShowAAStatus,console,ShowAAStatus [optionalBoolean],"Show pixels that have AA applied on screen, and mark in green. ignore case."
+PrintContextInfo,org.boxutil.units.builtin.console.PrintContextInfo,console,PrintContextInfo (no arguments),Print info for OpenGL.

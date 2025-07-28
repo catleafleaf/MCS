@@ -1,0 +1,63 @@
+#version 430
+
+precision OVERWRITE_PRECISION float;
+precision highp int;
+
+layout(local_size_x = RESET_VALUE, local_size_y = 8, local_size_z = 1) in;
+
+subroutine vec4 texInput(in float luminance, in float alpha, in ivec2 coord);
+subroutine uniform texInput texInputState;
+
+layout(binding = 0, rgba16) uniform coherent image2D tex;
+layout(binding = 1, r16) uniform readonly image2D volumeMap;
+layout(binding = 2, rgba16) uniform readonly image2D detailsMap;
+
+uniform ivec2 size;
+uniform vec4 state[2]; // vec4(srcStrength, srcPowFactor, violumeApply, DetailsApply), vec4(srcBrightness, srcContrast, srcSmoothstepMix, volumeSmoothMix)
+
+float extraFix(in float x) {
+    float result = pow(x, state[0].y);
+    result -= 0.5;
+    result *= state[1].y;
+    result += 0.5;
+    result *= state[1].x;
+    result = mix(result, smoothstep(0.0, 1.0, result), state[1].z);
+    return result;
+}
+
+vec3 fi3(in float a, in float b) {
+    return vec3(1.0 - (1.0 - a) * (1.0 - b));
+}
+
+subroutine(texInput) vec4 texOnly(in float luminance, in float alpha, in ivec2 coord) {
+    return vec4(vec3(luminance), alpha);
+}
+
+subroutine(texInput) vec4 withVolume(in float luminance, in float alpha, in ivec2 coord) {
+    float volume = 1.0 - min(imageLoad(volumeMap, coord).x * 2.0, 1.0);
+    volume = (state[1].w > 0.0) ? smoothstep(0.0, 1.0, volume) : volume;
+    return vec4(fi3(luminance, volume * state[0].z), alpha);
+}
+
+subroutine(texInput) vec4 withDetails(in float luminance, in float alpha, in ivec2 coord) {
+    float details = dot(imageLoad(detailsMap, coord).xyz, vec3(LINEAR_VALUES));
+    details = pow(details, state[0].y);
+    return vec4(vec3(mix(luminance, extraFix(details), state[0].w)), alpha);
+}
+
+subroutine(texInput) vec4 withBoth(in float luminance, in float alpha, in ivec2 coord) {
+    float volume = 1.0 - min(imageLoad(volumeMap, coord).x * 2.0, 1.0);
+    volume = (state[1].w > 0.0) ? smoothstep(0.0, 1.0, volume) : volume;
+    float details = dot(imageLoad(detailsMap, coord).xyz, vec3(LINEAR_VALUES));
+    return vec4(fi3(mix(luminance, extraFix(details), state[0].w), volume * state[0].z), alpha);
+}
+
+void main()
+{
+    ivec2 coord = ivec2(gl_GlobalInvocationID.xy);
+    if (any(greaterThanEqual(coord, size))) return;
+    vec4 raw = imageLoad(tex, coord);
+    float luminance = dot(raw.xyz, vec3(LINEAR_VALUES));
+    luminance = extraFix(luminance) * state[0].x;
+    imageStore(tex, coord, texInputState(luminance, raw.w, coord));
+}

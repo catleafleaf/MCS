@@ -1,0 +1,216 @@
+0    [main] INFO  com.fs.starfarer.StarfarerLauncher  - Starting Starsector 0.98a-RC8 launcher
+1    [main] INFO  com.fs.starfarer.StarfarerLauncher  - Running in E:\Starsector\starsector-core
+1    [main] INFO  com.fs.starfarer.StarfarerLauncher  - OS: Windows 11 10.0
+1    [main] INFO  com.fs.starfarer.StarfarerLauncher  - Java version: 17.0.10 (64-bit)
+1    [main] INFO  com.fs.starfarer.StarfarerLauncher  - Max memory: 2048MB
+11   [main] INFO  com.fs.starfarer.launcher.ModManager  - Found mod: BoxUtil [E:\Starsector\starsector-core\..\mods\BoxUtil]
+20   [main] INFO  com.fs.starfarer.launcher.ModManager  - Found mod: shaderLib [E:\Starsector\starsector-core\..\mods\GraphicsLib]
+29   [main] INFO  com.fs.starfarer.launcher.ModManager  - Found mod: lw_lazylib [E:\Starsector\starsector-core\..\mods\LazyLib]
+31   [main] INFO  com.fs.starfarer.launcher.ModManager  - Found mod: lunalib [E:\Starsector\starsector-core\..\mods\Lunalib]
+37   [main] INFO  com.fs.starfarer.launcher.ModManager  - Found mod: MagicLib [E:\Starsector\starsector-core\..\mods\MagicLib]
+38   [main] INFO  com.fs.starfarer.launcher.ModManager  - Found mod: MinecraftbutSS [E:\Starsector\starsector-core\..\mods\MCS]
+38   [main] INFO  com.fs.starfarer.settings.StarfarerSettings  - Loading settings
+39   [main] INFO  com.fs.starfarer.loading.LoadingUtils  - Loading JSON from [ABSOLUTE_AND_CWD: null (data/config/settings.json)]
+166  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 640x480, 170Hz, 32bpp
+166  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 640x480, 165Hz, 32bpp
+166  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 640x480, 144Hz, 32bpp
+166  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 640x480, 60Hz, 32bpp
+166  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 640x480, 59Hz, 32bpp
+166  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 640x480, 120Hz, 32bpp
+166  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 640x480, 100Hz, 32bpp
+166  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 640x480, 75Hz, 32bpp
+166  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 640x480, 72Hz, 32bpp
+166  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x480, 170Hz, 32bpp
+166  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x480, 165Hz, 32bpp
+167  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x480, 144Hz, 32bpp
+167  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x480, 100Hz, 32bpp
+167  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x480, 120Hz, 32bpp
+167  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x480, 60Hz, 32bpp
+167  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x480, 59Hz, 32bpp
+167  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x576, 75Hz, 32bpp
+167  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x576, 72Hz, 32bpp
+167  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x576, 100Hz, 32bpp
+167  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x576, 120Hz, 32bpp
+167  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x576, 60Hz, 32bpp
+167  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x576, 56Hz, 32bpp
+167  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x576, 144Hz, 32bpp
+167  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x576, 170Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 720x576, 165Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 800x600, 165Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 800x600, 170Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 800x600, 144Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 800x600, 60Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 800x600, 56Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 800x600, 100Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 800x600, 120Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 800x600, 75Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 800x600, 72Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1024x768, 144Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1024x768, 170Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1024x768, 165Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1024x768, 75Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1024x768, 70Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1024x768, 120Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1024x768, 100Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1024x768, 60Hz, 32bpp
+168  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1152x864, 60Hz, 32bpp
+169  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1152x864, 120Hz, 32bpp
+169  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1152x864, 100Hz, 32bpp
+169  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1152x864, 75Hz, 32bpp
+169  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1152x864, 170Hz, 32bpp
+169  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1152x864, 165Hz, 32bpp
+169  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1152x864, 144Hz, 32bpp
+169  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1176x664, 144Hz, 32bpp
+169  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1176x664, 170Hz, 32bpp
+169  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1176x664, 165Hz, 32bpp
+169  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1176x664, 120Hz, 32bpp
+169  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1176x664, 100Hz, 32bpp
+169  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1176x664, 60Hz, 32bpp
+169  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1176x664, 59Hz, 32bpp
+169  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x720, 60Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x720, 59Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x1024, 144Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x720, 100Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x1024, 170Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x720, 120Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x1024, 165Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x1024, 75Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x720, 144Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x720, 170Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x1024, 120Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x720, 165Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x1024, 100Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x1024, 60Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x960, 60Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x768, 144Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x960, 75Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x800, 170Hz, 32bpp
+170  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x800, 165Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x960, 120Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x800, 144Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x768, 170Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x768, 165Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x960, 100Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x800, 120Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x960, 144Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x800, 100Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x768, 120Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x960, 170Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x960, 165Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x768, 100Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x800, 60Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1280x768, 60Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1360x768, 144Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1360x768, 170Hz, 32bpp
+171  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1360x768, 165Hz, 32bpp
+172  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1360x768, 60Hz, 32bpp
+172  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1360x768, 100Hz, 32bpp
+172  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1360x768, 120Hz, 32bpp
+172  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1366x768, 144Hz, 32bpp
+172  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1366x768, 170Hz, 32bpp
+172  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1366x768, 165Hz, 32bpp
+172  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1366x768, 60Hz, 32bpp
+172  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1366x768, 100Hz, 32bpp
+172  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1366x768, 120Hz, 32bpp
+172  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1400x1050, 170Hz, 32bpp
+172  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1400x1050, 165Hz, 32bpp
+173  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1400x1050, 144Hz, 32bpp
+173  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1400x1050, 60Hz, 32bpp
+173  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1400x1050, 120Hz, 32bpp
+173  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1400x1050, 100Hz, 32bpp
+173  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1440x1080, 100Hz, 32bpp
+173  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1440x1080, 120Hz, 32bpp
+173  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1440x1080, 60Hz, 32bpp
+173  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1440x1080, 59Hz, 32bpp
+173  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1440x1080, 144Hz, 32bpp
+173  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1440x1080, 165Hz, 32bpp
+173  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1440x1080, 170Hz, 32bpp
+174  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1440x900, 170Hz, 32bpp
+174  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1440x900, 165Hz, 32bpp
+174  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1440x900, 144Hz, 32bpp
+174  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1440x900, 120Hz, 32bpp
+174  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1440x900, 100Hz, 32bpp
+174  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1440x900, 60Hz, 32bpp
+174  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x900, 60Hz, 32bpp
+174  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x900, 120Hz, 32bpp
+174  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x900, 100Hz, 32bpp
+174  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x900, 144Hz, 32bpp
+174  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x900, 170Hz, 32bpp
+174  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x900, 165Hz, 32bpp
+174  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x1024, 144Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x1200, 60Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x1024, 170Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x1024, 165Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x1200, 100Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x1200, 120Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x1200, 170Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x1200, 165Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x1024, 60Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x1024, 59Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x1200, 144Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x1024, 120Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1600x1024, 100Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1680x1050, 120Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1680x1050, 100Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1680x1050, 60Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1680x1050, 59Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1680x1050, 144Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1680x1050, 165Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1680x1050, 170Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1080, 100Hz, 32bpp
+175  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1080, 120Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1200, 170Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1200, 165Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1080, 60Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1080, 59Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1200, 144Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1200, 100Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1200, 120Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1080, 165Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1080, 170Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1200, 60Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1080, 144Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1440, 170Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1440, 165Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1440, 144Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1440, 120Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1440, 100Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1440, 60Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 1920x1440, 59Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 2560x1440, 120Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 2560x1440, 100Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 2560x1440, 60Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 2560x1440, 59Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 2560x1440, 170Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 2560x1440, 165Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 2560x1440, 144Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 2560x1080, 165Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 2560x1080, 170Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 2560x1080, 144Hz, 32bpp
+176  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 2560x1080, 100Hz, 32bpp
+177  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 2560x1080, 120Hz, 32bpp
+177  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 2560x1080, 60Hz, 32bpp
+177  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Found display mode: 2560x1080, 59Hz, 32bpp
+177  [main] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Assuming native monitor resolution is 2560x1440
+445  [Thread-1] INFO  com.fs.graphics.o0oO  - Using refresh rate:170
+677  [Thread-1] INFO  com.fs.starfarer.launcher.opengl.GLLauncher  - Maximum anti-aliasing samples: 16
+796  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/ui/launcher_bg.jpg (using reflection)
+806  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/ui/launch_button_bg.png (using reflection)
+808  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/ui/play_button0.png (using reflection)
+810  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/ui/play_button1.png (using reflection)
+824  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/ui/buttons/toggleA20x_on.png (using reflection)
+825  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/ui/buttons/toggleA20x_off.png (using reflection)
+825  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/ui/buttons/arrow_down.png (using reflection)
+826  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/fx/scanline11.png (using reflection)
+828  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/ui/bgs/ui_border1b_e.png (using reflection)
+828  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/ui/bgs/ui_border1b_e_bot.png (using reflection)
+829  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/ui/bgs/ui_border1b_e_top.png (using reflection)
+830  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/ui/bgs/ui_border1b_w.png (using reflection)
+830  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/ui/bgs/ui_border1b_w_bot.png (using reflection)
+831  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/ui/bgs/ui_border1b_w_top.png (using reflection)
+847  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/cursors/cursor_blue.png (using reflection)
+851  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/cursors/cursor_blue_2x.png (using reflection)
+862  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/fonts/orbitron24aabold_0.png (using reflection)
+886  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/fonts/orbitron20aa_0.png (using reflection)
+907  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/fonts/insignia15LTaa_0.png (using reflection)
+915  [Thread-1] INFO  com.fs.graphics.TextureLoader  - Cleaned buffer for texture graphics/fonts/orbitron12_0.png (using reflection)

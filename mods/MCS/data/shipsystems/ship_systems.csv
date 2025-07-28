@@ -1,0 +1,7 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+铁傀儡！,IronGolemSystem,,,,,,,,,,1,5,1,5,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+苦力怕！！,Creepersystem,,,,,,,,1,,6,1,0,0,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,,graphics/icons/hullsys/high_energy_focus.png
+Spider！,Spidersystem,,,,,,,,,,,,,10,,,,,,,,,,,,,
+骷髅大狙！,SkeletonSystem,1,,,,,,,3,0.05,0.25,3,0.25,,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+末影,EnderTeleport,,,,,,,,,,0.5,0,0.5,20,,,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,

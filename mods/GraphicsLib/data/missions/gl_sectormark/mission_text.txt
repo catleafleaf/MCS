@@ -1,0 +1,17 @@
+一个经过精细调整的测试任务，旨在尽可能保持一致性。与 Starsector+ 兼容性最佳。帧率统计和最终得分将记录在 starsector.log 文件中。
+
+使用方法：启动任务，按两次 Esc，然后等待测试完成。
+
+建议的标准基准测试设置：
+    分辨率：1024 x 768 窗口模式
+    Starsector settings.json 配置：
+        vsync: false（关闭垂直同步）
+        fps: 1000（帧率上限 1000）
+        smallClouds: false（禁用小型云雾效果）
+        maxFXSources: 64（最大特效音源 64）
+        maxUISources: 10（最大 UI 音源 10）
+    保持 UI 开启
+    启用 Mod：Starsector+、GraphicsLib 和 LazyLib
+        不启用使用其他 Mod！
+    使用 Starsector+ 和 GraphicsLib 的默认设置
+        战场规模：400

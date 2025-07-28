@@ -1,0 +1,16 @@
+{
+	"id":"MCS_snowball",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_NO_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"hitGlowRadius":20,
+	"length":20.0,
+	"width":20.0,
+	"fadeTime":001,
+	"fringeColor":[255,50,50,0],
+	"coreColor":[255,255,255,200],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/MCS_snowball.png",
+}

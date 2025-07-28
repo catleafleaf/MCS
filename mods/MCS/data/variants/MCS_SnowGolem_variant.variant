@@ -1,0 +1,33 @@
+{
+  "variantId": "MCS_SnowGolem_variant",
+  "hullId": "MCS_SnowGolem",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 18,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxbreakers",
+    "fluxcoil",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "MCS_Snowball",
+        "WS0002": "MCS_Snowball",
+        "WS0003": "MCS_Snowball",
+        "WS0004": "MCS_Snowball",
+        "WS0005": "MCS_DS",
+        "WS0006": "sabot",
+        "WS0007": "sabot"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

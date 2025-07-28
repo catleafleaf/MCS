@@ -1,0 +1,62 @@
+{
+  "variantId": "MCS_IronGolem_variant",
+  "hullId": "MCS_IronGolem",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 50,
+  "fluxVents": 1,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "eccm",
+    "missleracks",
+    "reinforcedhull",
+    "autorepair",
+    "auxiliarythrusters",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hellbore",
+        "WS0002": "hellbore",
+        "WS0011": "hellbore"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "MCS_Iron",
+        "WS0004": "MCS_Iron"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "MCS_IS",
+        "WS0015": "MCS_IS",
+        "WS0016": "MCS_IS",
+        "WS0017": "MCS_IS",
+        "WS0018": "MCS_IS",
+        "WS0019": "MCS_IS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "dragon",
+        "WS0006": "dragon",
+        "WS0009": "dragon",
+        "WS0010": "dragon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

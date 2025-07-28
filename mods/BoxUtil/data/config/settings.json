@@ -1,0 +1,41 @@
+{
+	"BUtil_DefaultGreen":[42,255,128,255],
+	"BUtil_DefaultBG":[2,16,10,255],
+
+	"graphics":{
+		"textures": {
+			"BUtil_TestTiles":"graphics/textures/BUtil_TestTiles.png",
+			"BUtil_NONE":"graphics/textures/BUtil_NONE.png",
+			"BUtil_ZERO":"graphics/textures/BUtil_ZERO.png",
+			"BUtil_ONE":"graphics/textures/BUtil_ONE.png",
+			"BUtil_MID":"graphics/textures/BUtil_MID.png",
+			"BUtil_Z":"graphics/textures/BUtil_Z.png",
+			"BUtil_box_Diffuse":"graphics/textures/diffuse/BUtil_box_Diffuse.png",
+			"BUtil_box_Normal":"graphics/textures/normal/BUtil_box_Normal.png",
+			"BUtil_box_AO":"graphics/textures/ao/BUtil_box_AO.png",
+			"BUtil_box_Emissive":"graphics/textures/emissive/BUtil_box_Emissive.png",
+			"BUtil_dice_Diffuse":"graphics/textures/diffuse/BUtil_dice_Diffuse.png",
+			"BUtil_dice_Normal":"graphics/textures/normal/BUtil_dice_Normal.png",
+			"BUtil_dice_Emissive":"graphics/textures/emissive/BUtil_dice_Emissive.png",
+			"BUtil_screw_Diffuse":"graphics/textures/diffuse/BUtil_screw_Diffuse.png",
+			"BUtil_screw_Normal":"graphics/textures/normal/BUtil_screw_Normal.png"
+		},
+		"icons": {
+			"BUtil_ModIcon": "graphics/icons/BUtil_ModIcon.png"
+		},
+		"ui": {
+			"BUtil_panel00_center":"graphics/ui/BUtil_panel00_center.png"
+		},
+		"fonts": {
+			"BUtil_OB":"graphics/fonts/orbitron20aabold_0.png",
+			"BUtil_IS":"graphics/fonts/insignia15LTaa_0.png"
+		}
+	},
+	"designTypeColors":{
+		"Box Util":[255,255,255,255]
+    },
+	"plugins": {
+		"BoxConfigGUI":"org.boxutil.config.BoxConfigGUI",
+		"CombatRenderingManager":"org.boxutil.manager.CombatRenderingManager"
+	}
+}

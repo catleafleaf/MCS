@@ -1,0 +1,35 @@
+{
+  "id": "MCS_Trident_l",
+  "specClass": "projectile",
+  "projectileSpecId": "MCS_TridentShot",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.Trident",
+  "turretSprite": "graphics/weapons/MCS_Tridentpod.png",
+  "hardpointSprite": "graphics/weapons/MCS_Tridentpod.png",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    11.5,
+    -12,
+    11.5,
+    12
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    23.5,
+    -12,
+    23.5,
+    12
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "NONE"
+}

@@ -1,0 +1,11 @@
+{
+	"id":"MinecraftbutSS",
+	"name":"MC船包",
+	"author": "猫葉",
+	"version":"0.0.1",
+	"description":"大人，方块杀过来了",
+	"gameVersion":"0.97a-RC11",
+
+	"jars":["jars/MCS.jar"],
+	"modPlugin":"data.scripts.MCSModPlugin",
+}

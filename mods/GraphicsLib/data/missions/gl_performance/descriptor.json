@@ -1,0 +1,6 @@
+{
+	"title":"光照性能测试",
+	"difficulty":"压力测试",
+	"icon":"ShaderLibLogo2.png",
+	"background":"graphics/shaders/backgrounds/benchmark.jpg"
+}

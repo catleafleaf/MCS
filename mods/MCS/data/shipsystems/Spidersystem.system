@@ -1,0 +1,10 @@
+{
+	"id":"Spidersystem",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	
+	"weaponDataId":"MCS_SpiderWire"
+	
+	#"weaponGlowColor":[55,200,255,255],
+ 	#"weaponTypes":[SYSTEM],
+}

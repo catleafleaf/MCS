@@ -1,0 +1,118 @@
+{
+  "hullName": "Skeleton",
+  "hullId": "MCS_Skeleton",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/MCS_Skeleton/MCS_Skeleton.png",
+  "style": "MIDLINE",
+  "height": 192,
+  "width": 94,
+  "center": [47, 96],
+  "collisionRadius": 112,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 108.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "DamageImmunityHullmod",
+    "advancedcore"
+  ],
+  "builtInWeapons": {
+    "WS0001": "MCS_BOW"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [43.5, -2]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 0,
+      "locations": [42.5, 22.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HIDDEN",
+      "arc": 60,
+      "angle": 0,
+      "locations": [42.5, -30]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 135,
+      "angle": 75,
+      "locations": [6.5, 11.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 135,
+      "angle": -75,
+      "locations": [6.5, -11.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-94, 11],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-94, 5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-94, -12],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-94, -17.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    102.5, 24.5,
+    102.5, -30.5,
+    62, -47,
+    22, -59,
+    -16.5, -43,
+    -53.5, -51,
+    -72, -36,
+    -106, -22,
+    -101.5, 19,
+    -61.5, 25.5,
+    -57.5, 58.5,
+    27.5, 55.5,
+    39, 35.5,
+    50.5, 24.5
+  ]
+}

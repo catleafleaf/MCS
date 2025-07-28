@@ -1,0 +1,54 @@
+{
+  "id": "MCS_Booster",
+  "specClass": "beam",
+  "type": "DECORATIVE",
+  "size": "SMALL",
+  "everyFrameEffect": "data.scripts.weapons.MCSBoosterWeaponEveryFrame",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/MCS_VindicatorAxe_Base.png",
+  "hardpointSprite": "graphics/weapons/MCS_VindicatorAxe_Base.png",
+  "renderBelowAllWeapons": true,
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "renderHints": [
+    "RENDER_ADDITIVE"
+  ],
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    100,
+    255,
+    100,
+    255
+  ],
+  "coreColor": [
+    100,
+    255,
+    100,
+    255
+  ],
+  "width": 1,
+  "textureType": "ROUGH",
+  "textureScrollSpeed": 1,
+  "pixelsPerTexel": 1,
+  "fireSoundOne": "system_plasma_burn",
+  "fireSoundTwo": "system_emp_emitter_activate"
+}

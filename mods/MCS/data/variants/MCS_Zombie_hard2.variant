@@ -1,0 +1,48 @@
+{
+  "variantId": "MCS_Zombie_hard2",
+  "hullId": "MCS_Zombie",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "converted_hangar",
+    "comp_storage",
+    "degraded_life_support",
+    "glitched_sensors",
+    "increased_maintenance",
+    "faulty_auto"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "dragon",
+        "WS0002": "dragon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "MCS_IS",
+        "WS0006": "MCS_IS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sabot"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "MCS_Chicken_wing"
+  ]
+}

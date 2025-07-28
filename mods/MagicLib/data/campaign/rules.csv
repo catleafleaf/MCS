@@ -1,0 +1,9 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME MagicLib (bounties),,,,,,
+magiclib_bountyboard_addevent,AddBarEvents,ShouldShowMagicBountyBoard,"AddBarEvent magiclib_bountyboard_selected ""接入当地非正式的赏金告示板。""  ""你的植入体中传来了信息，告知你此地据传有一个非正式的工作告示板。""",,,
+magiclib_bountyboard_selected,DialogOptionSelected,$option == magiclib_bountyboard_selected,ShowMagicBountyBoardCmd,,,
+magiclib_bountyCommText,OpenCommLink,"$entity.MagicLib_Bounty_target_hasReply score:1000
+!$entity.ignorePlayerCommRequests","$entity.ignorePlayerCommRequests = true
+MagicBountyCommsReplyCmd",,cutCommLinkNoText:继续,
+#magiclib_test_bounty_completed,magiclib_test_bounty_completed,,BountyScriptExample,,,
+,,,,,,

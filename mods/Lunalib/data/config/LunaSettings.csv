@@ -1,0 +1,34 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+luna_settingsHeader,Keybinds Header,Header,键位绑定,,,,,
+luna_SettingsKeybind_new,mod配置窗口的键位绑定,Keycode,61,,"修改在生涯中打开目前显示的配置界面的键位。
+即使修改了这里的键位，也可以使用 [Shift + F2] 组合键打开。",,,
+luna_DebugKeybind_new,调试页面的键位绑定,Keycode,62,,修改在生涯中打开调试菜单所用的键位。,,,
+,,,,,,,,
+,,,,,,,,
+luna_versionHeader,Version Checker,Header,版本检查,,,,,
+luna_enableVC,启用版本检查器,Boolean,true,,"如果将其设置为 已开启，则会启用版本检查。该更改将在游戏重启后生效。
+
+这只会影响 Lunalib 的版本检查功能，不会影响势力争霸等其他mod提供的类似功能。",,,
+,,,,,,,,
+luna_debugHeader,Debug Header,Header,调试,,,,,
+luna_DebugEntries,调试菜单中的天体数量限制,Int,25,,控制要在调试菜单的搜索系统中显示多少条天体的数据条目。如果设置得太大，可能会对游戏性能造成影响。,10,50,
+luna_DevmodeKeybind,开发者模式的键位绑定,Keycode,0,,修改按什么按键可以切换开发者模式。,,,
+luna_UIDebugKeybind,UI 调试界面键位,Keycode,0,,"如果你在生涯中按下这个键，则会弹出一个专供开发者阅读的页面，以对比由LunaLib提供的各类UI元素的区别与用途。
+[除非你是mod开发者，不然不要修改这个选项，以免影响游戏体验。]",,,
+,,,,,,,,
+,,,,,,,,
+luna_exampleHeader,Example Header,Header,示例选项,,,,,配置示例
+luna_exampleText,Example Text Field,Text,"以下的选项和数值均是为了演示一个LunaSetting可以做成什么样而有意设计的，你可以在这里看看然后对比一下文件。
+这些选项不会产生任何附加影响。",,,,,配置示例
+luna_exampleString,示例字符串 [String],String,some string,,这个输入框会接受任意未经过滤的文本。,,,配置示例
+luna_exampleBoolean,示例布尔值 [Boolean],Boolean,true,,一个按钮，用于切换用户对此表示“是”或“否”。,,,配置示例
+luna_exampleInt,示例整型数 [Int],Int,100,,这个输入框只能用于输入数字，并将结果表现在滑条上。反之亦然。,-50,200,配置示例
+luna_exampleDouble,示例浮点数 [Double],Double,10.2,,这个输入框只能输入小数，比如 10.2 。,0,20,配置示例
+luna_exampleKeybind,示例 键位绑定,Keycode,0,,"允许用户注册按键绑定。 保存的键码与 org.lwjgl.input.Keyboard 和 Starsectors InputEventAPI 使用的键码相同。
+
+由于 lwjgl 会将未绑定按键或未知字符设置为0，因此请确保在代码中获取该值的时候，忽略掉数字0。",,,配置示例
+luna_newExampleColor,示例 颜色选择,Color,#f22e6e,,这会创建一个颜色选择器，提供一个 HEX的文本字段和三个用于 HSV 颜色选择的滑块。,,,配置示例
+luna_exampleRadio,示例 单项选择,Radio,None,"None, Hegemony, Tritachyon, Persean League, Sindrian, Independent","创建一个单选按钮选择器。
+
+defaultValue 决定默认选择哪一个，在 secondaryValue 使用逗号分隔的字符串创建选项列表。
+当在代码中使用的时候，会返回被选中的字符串。",,,配置示例

@@ -1,0 +1,2 @@
+Ignore alpha channel.
+Builtin render is use OpenGL normal map.

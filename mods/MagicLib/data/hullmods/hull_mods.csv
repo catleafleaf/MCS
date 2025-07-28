@@ -1,0 +1,10 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+幅能网干扰,ML_interferenceWarning,,,,"special,hide_in_codex",,,,TRUE,,0,0,0,0,org.magiclib.hullmods.MagicInterferenceWarning,"%s，安装了多个会相互干扰的武器，让幅能网络的运行受到阻碍。
+
+强大的特殊武器间会产生相互作用，干扰舰船幅能网络的运转。
+
+武器干扰级别为 %s, %s 或 %s。对每一个具有干扰性的武器，它们都会让舰船的被动幅能耗散水平下降 %s/%s/%s 。
+
+效果可减少 %s 当安装 %s 船插时。",,graphics/magic/hullmods/interference.png
+船插冲突,ML_incompatibleHullmodWarning,,,,hide_in_codex,,,,TRUE,,0,0,0,0,org.magiclib.hullmods.MagicIncompatibleWarning,%s，该船插不能安装在这艘船上或与另一个先前安装的船插冲突。,,graphics/icons/intel/investigation.png
+涂装,ML_skinSwap,,,,"special,no_build_in,no_drop,hide_in_codex",,,TRUE,TRUE,TRUE,0,0,0,0,org.magiclib.paintjobs.MagicPaintjobHullMod,这艘船拥有自定义的舰体涂装。你可以在个人信息面板管理涂装。,,graphics/magic/hullmods/paintjob.png

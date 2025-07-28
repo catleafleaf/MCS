@@ -1,0 +1,38 @@
+{
+	"id":"MCS_Shulkershot",
+	"specClass":"missile",	
+	"missileType":"HEATSEEKER",
+	"sprite":"graphics/missiles/MCS_Shulkershot.png",
+	"onHitEffect": "data.scripts.weapons.ShulkerOnHit",
+	"size":[11,10],	
+	"center":[5.5,5],
+	"collisionRadius":14,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,240,240,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":80, # purely visual
+	#"alwaysAccelerate":true,
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":300,
+				  "acc":5500,
+				  "dec":3500},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-5,0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[250,240,240,255],
+						"contrailDuration":2,
+						"contrailWidthMult":2,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.75, # how far away from engine it starts
+						"contrailColor":[250,240,240,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":5.0,
+				    "length":76.0,
+				    "angle":180.0}],
+}

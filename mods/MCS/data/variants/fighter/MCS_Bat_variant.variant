@@ -1,0 +1,22 @@
+{
+  "variantId": "MCS_Bat_variant",
+  "hullId": "MCS_Bat",
+  "displayName": "攻击机",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "MCS_Dark"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
